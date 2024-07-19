@@ -1,127 +1,51 @@
-header {
-	background: #016b06;
-	padding: 10px 0;
-	border-bottom: solid 4px;
-	border-color: #ebc000;
-}
-
-.caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-}
-
-nav {
-	position: absolute;
-	top: 20px;
-	right: 0px;
-	font-family: arial;
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
-}
-
-nav a {
-	color: #F5F5F5;
-	text-decoration: none;
-	font-weight: 500;
-	font-size: 22px;
-	position: relative;
-}
-
-nav a::after {
-	content: " ";
-	width: 0%;
-	height: 3px;
-	background-color: #ebc000;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	transition: 0.5s ease-in-out;
-}
-
-
-nav a:hover::after {
-	width: 100%;
-}
-
-main {
-	font-family: Arial;
-}
-
 body {
-	background-color: #494949;
+  background-image: linear-gradient(to top right, #ebc000, #528500, #016b06);
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+  position: relative;
 }
 
-
-.imgcont {
-	margin: 5px auto 0 8px;
+.container {
+  width: 390px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
 }
 
-.titulo {
-	position: relative;
-	width: 900px;
-	margin: 0 auto 0 8px;
-	padding: 5px 0 0;
-}
-
-.titulo hr {
-	border-color: #ebc000;
-    margin: 0 0 10px;
+.welcome {
+  padding-bottom: 8px;
+  border-bottom: solid 6px #ebc000;
 }
 
 h1 {
-	color: #FFFFFF;
-	margin: 0 0 0 8px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
 }
 
-.paragrafo {
-	position: relative;
-	width: 900px;
-	margin: 0 auto 0 8px;
+button {
+  width: 150px;
+  height: 50px;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: solid 2px #CCC;
+  border-radius: 40px;
+  background-color: transparent;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
-.paragrafo hr {
-    border-color: #ebc000;
-    margin: 0 0 10px;
-}
-
-.paragrafo li {
-	font-weight: 600;
-	font-size: large;
-}
-
-.paragrafo p {
-	margin: 0 0 0 4px;
+button:hover {
+  transform: scale(1.2);
 }
 
 p {
-	color: #FFFFFF;
+  color: #ffffff;
 }
-
-ul {
-	display: inline;
-}
-
-li {
-	color: #FFFFFF;
-}
-
-footer {
-	text-align: center;
-	background-color: #016b06;
-	padding: 20px 0;
-}
-
-.copyr {
-	margin: 20px 0 0;
-	font-size: 13px;
-	font-family: Arial;
-}
-
-
-
-
-
