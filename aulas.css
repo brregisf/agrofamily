@@ -48,6 +48,7 @@ nav a:hover::after {
 
 main {
 	font-family: arial;
+	margin: 0 8px 0 8px;
 }
 
 body {
@@ -58,8 +59,12 @@ body {
 	font-size: large;
 	position: relative;
 	width: 900px;
-	margin: 0 auto 0 8px;
 	padding: 10px 0 0;
+}
+
+.titulo p {
+	font-size: medium;
+	margin: 0 auto 0 8px;
 }
 
 .titulo hr {
@@ -69,13 +74,13 @@ body {
 
 h1 {
 	color: #FFFFFF;
-	margin: 0 0 0 8px;
+	margin: 0 auto 0 8px;
 }
 
 .paragrafo {
 	position: relative;
 	width: 900px;
-	margin: 0 auto 0 8px;
+	margin: 0 8px 0 8px;
 }
 
 .paragrafo hr {
@@ -89,7 +94,7 @@ h1 {
 }
 
 .paragrafo p {
-	margin: 0 0 0 4px;
+	content: " ";
 }
 
 p {
@@ -101,7 +106,7 @@ ul {
 }
 
 li {
-	margin: 0 auto 0 8px;
+	margin: 10px auto 0 8px;
 	font-weight: 600;
 	font-size: large;
 	color: #FFFFFF;
@@ -110,7 +115,6 @@ li {
 .list {
 	position: relative;
 	width: 820px;
-	margin: 15px auto 0 8px;
 }
 
 .list hr {
