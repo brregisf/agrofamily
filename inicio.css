@@ -7,7 +7,7 @@ header {
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -59,12 +59,14 @@ body {
 
 
 .imgcont {
+	width: 30%;
+	height: auto;
 	margin: 5px auto 0 8px;
 }
 
 .titulo {
 	position: relative;
-	width: 900px;
+	width: 70%;
 	margin: 0 auto 0 8px;
 	padding: 5px 0 0;
 }
@@ -81,7 +83,7 @@ h1 {
 
 .paragrafo {
 	position: relative;
-	width: 900px;
+	width: 70%;
 	margin: 0 8px 0 8px;
 }
 
