@@ -22,8 +22,15 @@ nav {
 	font-family: arial;
 }
 
+nav ul {
+	padding: 0;
+    display: flex;
+	justify-content: center;
+    list-style: none;
+}
+
 nav li {
-	display: inline;
+	display: inline-block;
 	margin: 0 0 0 15px;
 }
 
@@ -130,6 +137,74 @@ footer {
 	font-family: Arial;
 }
 
+
+/* Media query para telas de celulares*/
+@media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
+		.caixa {
+			width: 95%;
+		}
+	
+		nav {
+			position: static;
+			text-align: center;
+			margin-top: 10px;
+		}
+	
+		nav a {
+			font-size: 18px;
+			display: block;
+			padding: 10px;
+		}
+	
+		header {
+			padding: 20px 0;
+		}
+
+		.titulo, .paragrafo, .imgcont {
+			width: 90%;
+			margin: 10px auto;
+		}
+	
+		h1 {
+			margin: 0 auto;
+			text-align: center;
+		}
+	}	
+}
+
+/* Media query para telas de tablets*/
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .caixa {
+        width: 90%;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        font-size: 20px;
+        display: block;
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    .titulo, .paragrafo, .imgcont {
+        width: 85%;
+        margin: 10px auto;
+    }
+
+    h1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
 
 
 
