@@ -140,7 +140,6 @@ footer {
 
 /* Media query para telas de celulares*/
 @media screen and (max-width: 480px) {
-    @media screen and (max-width: 480px) {
 		.caixa {
 			width: 95%;
 		}
@@ -171,7 +170,6 @@ footer {
 			text-align: center;
 		}
 	}	
-}
 
 /* Media query para telas de tablets*/
 @media screen and (min-width: 480px) and (max-width: 768px) {
